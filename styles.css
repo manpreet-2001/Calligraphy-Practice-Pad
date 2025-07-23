@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background: linear-gradient(90deg, #6a4c93, #1982c4);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Pacifico', cursive;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+footer p {
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+  max-width: 700px;
+  width: 90%;
+  margin: 30px auto;
+  background: rgba(255,255,255,0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+  padding: 30px;
+  text-align: center;
+}
+
+.example {
+  margin: 20px 0;
+  font-size: 120px;
+  font-family: 'Great Vibes', cursive;
+  color: rgba(0,0,0,0.07);
+  user-select: none;
+}
+
+.color-palette {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.color {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.color:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls label {
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  background: #6a4c93;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #8e5fbf;
+  transform: translateY(-2px);
+}
+
+canvas {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  cursor: crosshair;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.letter-controls {
+  margin-top: 20px;
+}
+
+.letter-controls button {
+  background: #1982c4;
+}
+
+.letter-controls button:hover {
+  background: #1c91e0;
+}

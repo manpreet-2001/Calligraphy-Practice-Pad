@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calligraphy Practice Pad</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>🖋️ Calligraphy Practice Pad</h1>
+  </header>
+
+  <main class="container">
+
+    <div class="example">
+      <span id="exampleLetter">A</span>
+    </div>
+
+    <div class="color-palette">
+      <div class="color" style="background:#000000" data-color="#000000"></div>
+      <div class="color" style="background:#ff595e" data-color="#ff595e"></div>
+      <div class="color" style="background:#ffca3a" data-color="#ffca3a"></div>
+      <div class="color" style="background:#8ac926" data-color="#8ac926"></div>
+      <div class="color" style="background:#1982c4" data-color="#1982c4"></div>
+      <div class="color" style="background:#6a4c93" data-color="#6a4c93"></div>
+    </div>
+
+    <div class="controls">
+      <label>Brush Size:
+        <input type="range" id="sizePicker" min="1" max="20" value="5">
+      </label>
+      <button id="clearButton">Clear Canvas</button>
+    </div>
+
+    <canvas id="canvas" width="600" height="400"></canvas>
+
+    <div class="letter-controls">
+      <button onclick="changeLetter('A')">A</button>
+      <button onclick="changeLetter('B')">B</button>
+      <button onclick="changeLetter('C')">C</button>
+      <button onclick="changeLetter('D')">D</button>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Created by Manpreet Singh ✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
