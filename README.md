@@ -32,7 +32,7 @@ A **beautiful and advanced calligraphy practice web app** where users can:
 
 ## 🚀 **Live Demo**
 
-[Click here to view live](https://your-github-username.github.io/calligraphy-practice-pad/) *(replace with your GitHub Pages link)*
+[Click here to view live](https://manpreet-2001.github.io/Calligraphy-Practice-Pad/)
 
 ---
 
@@ -40,4 +40,4 @@ A **beautiful and advanced calligraphy practice web app** where users can:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/calligraphy-practice-pad.git
+   https://github.com/manpreet-2001/Calligraphy-Practice-Pad.git
